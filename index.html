@@ -1,1 +1,72 @@
-hello world
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=”utf-8”>
+        <title>Home Page</title>
+    <style>
+    nav {
+    border-bottom: 1px solid black;
+}
+    </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navlist">
+                <ol>
+                    <li class="navitem"><a href="home.html">Home</a></li>
+                    <li class="navitem"><a href="products.html">Products</a></liclass="navitem">
+                    <li class="navitem"><a href="news.html">News</a></li>
+                    <li class="navitem"><a href="Contact.html">Contact Us</a></li>
+                </ol>
+                <form action="PlaceholderHandshake" method="POST" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>
+                            Login
+                        </legend>
+                    <div>
+                        <label for="usrname">Username</label>
+                        <input type="text" placeholder="Enter Username" name="usrname" required>
+                    </div>     
+                    <div>  
+                        <label for="pswd">Password</label>
+                        <input type="password" placeholder="Enter Password" name="pswd" required>
+                    </div> 
+                        <button type="submit">Login</button>
+                    </fieldset>
+                </form>        
+            </nav>
+        </header>
+        <main>
+            <picture>
+                <source media="(min-width: 600px)" srcset="./images/HempLeft-640.jpg 640w" sizes="32vw">
+                <img src="./images/Hempfield-640.jpg" alt = "Hemp field">
+            </picture>
+            <picture>
+                <source media="(min-width: 600px)" srcset="./images/HempMid-640.jpg 640w" sizes="32vw">
+                <img src="./images/Hempfield-640.jpg" alt = "Hemp field">
+            </picture>
+            <picture>
+                <source media="(min-width: 600px)" srcset="./images/HempRight-640.jpg 640w" sizes="32vw">
+                <img src="./images/Hempfield-640.jpg" alt = "Hemp field">
+            </picture>
+            <div class="leftcontent">
+            <h1>Vermont Hemp</h1>
+            <p>Welcome to a directory for locally sourced hemp!</p>
+            <p>In this exercise, we will use this page to explore vermonts offerings along with laying the foundation for a page soon to be styled with CSS!</p>
+            <p>You might be asking yourself <emp>"Is this legal?"</emp> Please click the <a href="https://tax.vermont.gov/business-and-corp/industry-guidance/hemp-and-cbd">Link</a> for more information.</p>
+            </div>
+            <div class="rightcontent">
+                <h1> Benefits of Hemp</h1>
+                <ul>
+                    <li>Plentiful</li>
+                    <li>Renewable</li>
+                    <li>Recyclable</li>
+                </ul>
+            </div> 
+        </main>
+        <footer>
+            <p>All content copyright &copy; 2022, Seth McMullen </p>
+        </footer>
+    </body>
+</html>
+
