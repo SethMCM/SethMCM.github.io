@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=”utf-8”>
+        <title>Contact Us</title>
+    <style>
+    nav {
+    border-bottom: 1px solid black;
+}
+    </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navlist">
+                <ol>
+                    <li class="navitem"><a href="../index.html">Home</a></li>
+                    <li class="navitem"><a href="products.html">Products</a></liclass="navitem">
+                    <li class="navitem"><a href="news.html">News</a></li>
+                    <li class="navitem"><a href="Contact.html">Contact Us</a></li>
+                </ol>
+                <form action="PlaceholderHandshake" method="POST" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>
+                            Login
+                        </legend>
+                    <div>
+                        <label for="usrname">Username</label>
+                        <input type="text" placeholder="Enter Username" name="usrname" required>
+                    </div>     
+                    <div>  
+                        <label for="pswd">Password</label>
+                        <input type="password" placeholder="Enter Password" name="pswd" required>
+                    </div> 
+                        <button type="submit">Login</button>
+                    </fieldset>
+                </form>        
+            </nav>
+        </header>
+        <main>  
+            <div>
+                    <h1>Welcome to our contact Page!</h1>
+            <p>We can be reached at the following address or you can fill out a form. </p>
+            <address>
+                <a href="mailto:SethM@vtbuds.net">SethM@vtbuds.net</a>
+                <a href="tel:+18020000000">1(802) 000-0000</a>
+            </address> 
+            </div>
+            <form action="PlaceholderHandshake" method="POST" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>
+                        Contact Us Form
+                    </legend>
+                <div>
+                    <label for="First_Name">First Name:</label> <br>
+                    <input type="text" name="First_Name" value="" maxlength="30" id="Fname"> 
+                </div>    
+                    
+                <div>
+                    <label for=Last_Name>Last Name: </label>    <br>
+                    <input type="text" name="Last_Name" value="" maxlength="50"id=LName>
+                </div>
+                <div>
+                    <label for="email">Email:</label>          <br>
+                        <input type="email" name="email" value="" maxlength="50" id="emails">
+                    
+                    </div>     
+                <div>
+                    <label for="marketing">How did you hear about us?</label> <br>
+                    <textarea name="marketing" rows="5" cols="50" input type="textarea">
+                    
+                    </textarea>
+                </div>
+                <div>
+                    <label for="request">What can we help you with?</label>  <br>
+                    <textarea name="request" rows="5" cols="50" input type="textarea">
+                    
+                    </textarea>
+                </div> 
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p>All content copyright &copy; 2022, Seth McMullen </p>
+        </footer>
+    </body>
+</html>
+
