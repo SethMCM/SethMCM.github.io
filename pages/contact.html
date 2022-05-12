@@ -3,25 +3,22 @@
     <head>
         <meta charset=”utf-8”>
         <title>Contact Us</title>
-    <style>
-    nav {
-    border-bottom: 1px solid black;
-}
-    </style>
+        <link rel="stylesheet" href="..\styles\formatting.css">
+        <link rel="stylesheet" href="..\styles\colors.css">
     </head>
     <body>
         <header>
             <nav class="navlist">
-                <ol>
+                <ol id="sitenav">
                     <li class="navitem"><a href="../index.html">Home</a></li>
-                    <li class="navitem"><a href="products.html">Products</a></liclass="navitem">
-                    <li class="navitem"><a href="news.html">News</a></li>
-                    <li class="navitem"><a href="Contact.html">Contact Us</a></li>
-                </ol>
+                    <li class="navitem"><a href="./products.html">Products</a></liclass="navitem">
+                    <li class="navitem"><a href="./news.html">News</a></li>
+                    <li class="navitem"><a href="./contact.html">Contact Us</a></li>
+                    <li>     
                 <form action="PlaceholderHandshake" method="POST" enctype="multipart/form-data">
                     <fieldset>
                         <legend>
-                            Login
+                         Login  
                         </legend>
                     <div>
                         <label for="usrname">Username</label>
@@ -33,18 +30,23 @@
                     </div> 
                         <button type="submit">Login</button>
                     </fieldset>
-                </form>        
+                </form>
+                </li>
+                </ol>        
             </nav>
         </header>
         <main>  
-            <div>
+            <div id="contactinfo">
                     <h1>Welcome to our contact Page!</h1>
             <p>We can be reached at the following address or you can fill out a form. </p>
             <address>
                 <a href="mailto:SethM@vtbuds.net">SethM@vtbuds.net</a>
+            </address>
+            <address>
                 <a href="tel:+18020000000">1(802) 000-0000</a>
-            </address> 
+            </address>
             </div>
+            <div id="contactform">
             <form action="PlaceholderHandshake" method="POST" enctype="multipart/form-data">
                 <fieldset>
                     <legend>
@@ -79,6 +81,7 @@
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
+            </div>
         </main>
         <footer>
             <p>All content copyright &copy; 2022, Seth McMullen </p>
