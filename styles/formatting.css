@@ -1,0 +1,142 @@
+*{
+    font-size: 16px;
+    margin:0;
+    padding:0;
+}
+/*Nav CSS */
+#sitenav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: fit-content;
+    width:100%;
+    gap: 10%;
+    padding:.5em;
+    background: url("../images/field-1920.png") repeat fixed top;    
+}
+nav {
+    border-bottom: 2px solid black;
+}
+#sitenav > li:nth-child(5) > form > fieldset > div:nth-child(2) > label{
+    font-size: 1em;
+}
+#sitenav > li:nth-child(5) > form > fieldset > div:nth-child(3) > label{
+    font-size: 1em;
+}
+li{
+    font-size: 2em;   
+}
+li > a{
+    font-size: 1em;
+    position: relative;
+    top:25%;
+    bottom:50%;
+}
+fieldset{
+    border-width: 0;   
+}
+input{
+    box-sizing: border-box;      
+}
+button{
+    border-radius: 5%;
+    width: 100%;
+    border-width: 2px;
+}
+legend{
+    display: none;
+}
+/*Body CSS */
+body{
+    background: url("../images/plantsky-1920.jpg") no-repeat fixed; 
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;  
+   
+}
+.parent > .image1 {
+    grid-area: 1 / 1 / 3 / 3;
+    height: 210px;
+    background-size: cover;
+    background: url("../images/HempLeft-640.jpg");
+    background-attachment:fixed;
+}
+.parent > .image2 {
+    grid-area: 1 / 3 / 3 / 5;
+    height: 210px;
+    background-size: cover;
+    background: url("../images/HempMid-640.jpg");
+    background-attachment:fixed;
+}
+.parent > .image3 {
+    grid-area: 1 / 5 / 3 / 7;
+    height: 210px;
+    background-size: cover;
+    background: url("../images/HempRight-640.jpg");
+    background-attachment:fixed;
+}
+.leftcontent{
+    grid-area: 3 / 1 / 4 / 4;
+}
+.rightcontent{
+     grid-area: 3 / 4 / 4 / 7;
+     text-align: center;
+}
+#contactform{
+    align-content: center;
+}
+div > label, div > p{
+    font-size: 1.5em;   
+}
+h1, p, address{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+}
+emp{
+    font-size: 1.2em;
+}
+body > main > div > div.leftcontent > p:nth-child(3) > a {
+    font-size: 1.2em;
+}
+#contactform > form > fieldset > button{
+    max-width: 24%;
+}
+address ~ address{
+    padding:.5em;
+ }
+h1 + p{
+    font-weight: bold;
+}
+
+ul > li{
+    list-style-type: none;  
+}
+
+#producttable{
+    width:30%; 
+    margin-left:auto; 
+    margin-right:30%;   
+}
+/*FOOTER */
+footer{
+    text-align: center;
+    font-size: 2em;   
+}
+footer > p {
+    font-size: 1.5em;   
+}
+p + p{
+    font-style: italic;
+}
+/*Responsive */
